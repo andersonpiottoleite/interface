@@ -30,6 +30,8 @@ public class Autenticador {
         bancoSimulado.add(usuario2);
     }
 
+    // qualquer objeto que for Autenticavel pode ser passado aqui como parametro
+    // ou seja - polimorfismo
     public static boolean autentica(Autenticavel autenticavel){
         for (Usuario u : bancoSimulado) {
             if (autenticavel.getLogin().equals(u.getLogin())

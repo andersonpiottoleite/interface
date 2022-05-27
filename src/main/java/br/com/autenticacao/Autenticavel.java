@@ -5,8 +5,12 @@ package br.com.autenticacao;
  *
  * @author Anderson Piotto
  */
+
+// observe a palavra interface, ao invés de class
 public interface Autenticavel {
 
+    // metodos de interface são public e abstract (não tem corpo), mesmo que
+    // não coloquemos "public" e "abstract", o java implicitamente faz isso.
     String getLogin();
 
     String getSenha();
