@@ -24,11 +24,13 @@ public class Gerente extends Empregado implements Autenticavel {
         this.supervisoresSubordinados.add(supervisor);
     }
 
+    // implementa o metodo getLogin da interface Autenticavel
     @Override
     public String getLogin() {
         return this.usuario.getLogin();
     }
 
+    // implementa o metodo getSenha da interface Autenticavel
     @Override
     public String getSenha() {
         return this.usuario.getSenha();
