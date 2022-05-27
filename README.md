@@ -1,5 +1,5 @@
 
-# Aqui nesse projeto temos uma demostração de um cenário onde podemos usar herança e inteface
+# Aqui nesse projeto temos uma demonstração de um cenário onde podemos usar herança e inteface
 
 # Um cenário interessante para se usar herança:
 Gerente extende Empregado
