@@ -1,7 +1,7 @@
 package br.com.personagens;
 
 /** classe que define um empregado
- * não pode ser intanciado, veja o abstract, não faz sentido ter só um empregado no sistema,
+ * não pode ser instanciado, veja o abstract, não faz sentido ter só um empregado no sistema,
  * ele precisa ser mais concreto, ser um gerente, supervisor, atendente, etc.
  *
  * @author Anderson Piotto
